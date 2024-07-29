@@ -1,0 +1,403 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Merriweather&display=swap');
+
+* {
+    font-family: "Merriweather", serif;
+    font-weight: 520;
+    font-style: normal;
+  }
+  /* border:  1px solid red; */
+
+.BK {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  font-size: 29.8px;
+}
+.menuu {
+  width: 100%;
+  max-height: auto;
+  background-image: url("./assets/woodbg.jpg");
+}
+.menuuu {
+  background-color: transparent;
+  border-radius: 14px;
+}
+.cardbox {
+  width: 100%;
+  height: auto;
+  background-image: url(./assets/woodbg.jpg);
+}
+
+.navbar-nav {
+  width: 100%;
+  height: auto;
+  /* border: 2px solid red; */
+}
+
+.about-image img {
+  width: 80%;
+
+  /* border: 4px solid red ; */
+}
+
+.bike-image {
+  /* width: 250px ; */
+  height: 280px;
+  margin-inline: 70px;
+}
+
+.img:hover {
+  filter: grayscale(50%);
+}
+
+.img {
+  border-radius: 25% 10% 10% 0;
+}
+.cartitems {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: normal;
+  cursor: pointer;
+  border: 2px solid red;
+}
+
+/* .carts-1:hover{
+    transition: all ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 13px rgb(111, 110, 110);
+  
+  } */
+/* .carts-2:hover{
+    transition: all ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 13px rgb(111, 110, 110);
+  
+  } */
+/* .carts-3:hover{
+    transition: all ease-in-out;
+    transform: scale(1.10);
+    box-shadow: 10px 10px 13px rgb(111, 110, 110);
+  
+  } */
+.carts-1 {
+  width: 280px;
+  height: 200px;
+  border-radius: 10px;
+  /* / border: 1px solid rgb(178, 178, 178); / */
+  box-shadow: 3px 5px 8px rgb(111, 110, 110);
+  /* border: 2px solid rebeccapurple; */
+}
+
+/* .carts-2 {
+  border-radius: 10px;
+  border: 1px solid rgb(178, 178, 178);
+  box-shadow: 3px 5px 8px rgb(111, 110, 110);
+} */
+/* .carts-3 {
+  border-radius: 20px;
+  border: 1px solid rgb(178, 178, 178);
+  box-shadow: 3px 5px 8px rgb(111, 110, 110);
+} */
+.cart-item-img {
+  width: 100%;
+  height: 250px;
+  padding: 2px;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+}
+.btns .btn.circle {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+}
+/* / line 174, ../sass/test.scss / */
+.btns .btn.circle.border {
+  border: 2px solid transparent;
+  -webkit-transition: border-top-color 0.15s linear 0s,
+    border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+  -moz-transition: border-top-color 0.15s linear 0s,
+    border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+  -ms-transition: border-top-color 0.15s linear 0s,
+    border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+  -o-transition: border-top-color 0.15s linear 0s,
+    border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+  transition: border-top-color 0.15s linear 0s,
+    border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+}
+/* / line 177, ../sass/test.scss / */
+.btns .btn.circle.border:hover {
+  border-color: #0392cf;
+}
+
+.card-item-price:hover {
+  color: orange;
+}
+
+/* .card-text {
+  width: 190px;
+} */
+
+.card-burger {
+  width: 300px;
+  height: 350px;
+}
+
+.about {
+  width: 100%;
+  height: auto;
+  background-color: #eeeded;
+}
+
+.about-img.about-img-two {
+  max-width: 500px;
+  height: auto;
+}
+
+.about-img {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.about-img::before:hover {
+  transform: scale(1.1) rotate(180deg);
+  transition: all ease-in-out 1s;
+}
+
+.about-img img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cta-section {
+  width: 100%;
+  background-image: url(https://lapinoz.ca/assets/wla_new/lapinoz/ca/images/usp-banner.jpg);
+  padding: 30px 0 140px;
+  background-size: cover;
+  background-position: center;
+}
+.cta-section:before {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.outer-card-dv {
+  width: 100%;
+  height: auto;
+  margin-top: -115px;
+}
+
+.common-heading {
+  font-weight: 600;
+  line-height: 1.2;
+  clear: both;
+  font-size: 25px;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mobile{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .about-img {
+    max-width: 300px;
+    height: 300px;
+  }
+  /* #round-pizza {
+    display: none;
+  } */
+
+  .outer-card-dv {
+    margin-top: -110px;
+  }
+
+  .container {
+    max-width: auto;
+    height: auto;
+  }
+
+  #explore {
+    display: inline;
+  }
+
+  .row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    background-color: #fff;
+  }
+  .icons .img-responsive {
+    max-width: 50px;
+    position: relative;
+    left: 330px;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+  }
+  #h2{
+    font-size: 15px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  #h1{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+}
+
+.row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  box-shadow: 0px 5px 10px rgb(215, 211, 211);
+  border-radius: 0px 0px 8px 8px;
+  background-color: #fff;
+}
+.three-cards-inner {
+  border: 1px solid black;
+  padding: 25px 15px 55px 15px;
+}
+.three-cards-inner h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.three-cards-inner p {
+  margin-top: 10px;
+}
+
+.img-responsive {
+  width: 70px;
+
+  position: relative;
+  left: 150px;
+}
+#texth1{
+  position: relative;
+  top: 20px;
+  /* left: 300px; */
+  color: #fff;
+}
+#h2{
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+#h1{
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+#h3{
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+#texth2{
+  position: relative;
+  top: 20px;
+  left: -60px;
+  color: #fff;
+}
+
+
+/*  mobile  */
+@media (max-width: 390px) {
+  .BK {
+    font-size: 20px;
+  }
+
+  .outer-card-dv {
+    width: 100%;
+    height: auto;
+    margin-top: -115px;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+  }
+  .icons .img-responsive {
+    max-width: 50px;
+    position: relative;
+    left: 140px;
+
+    border: 3px solid #fff;
+  }
+  #explore {
+    display: none;
+  }
+  .mobile{
+    display: inline;
+  }
+  .populare{
+    display: none;
+  }
+  #texth1{
+    position: relative;
+    top: 20px;
+    /* left: 300px; */
+    color: #fff;
+  }
+  #h2{
+    font-size: 15px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  #h1{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+  }
+  #h3{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+  #texth2{
+    position: relative;
+    top: 20px;
+    left: -60px;
+    color: #fff;
+  }
+}
